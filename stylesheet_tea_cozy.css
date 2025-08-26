@@ -1,0 +1,182 @@
+/* Basic information */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: auto;
+    height: auto;
+}
+
+/* Information about the header (logo and navigation bar) */
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin-top: -8px;
+}
+
+header img {
+    padding-left: 10px;
+}
+
+.head {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 30px;
+}
+
+.nav_bar a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* Information about "Our mission" (background image and texts) */
+.block_1 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*p06lgs*_gcl_au*MzEwNDM0NzU1LjE3NTIxNTI4NzU.*_ga*NTA2MDM3MDMxNi4xNzQ0MjczNjYx*_ga_3LRZM6TM9L*czE3NTYxNTAyOTEkbzI3JGcxJHQxNzU2MTUwMzIyJGoyOSRsMCRoMA...);
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.mission {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;;
+}
+
+.mission h2 {
+    margin: 15px;
+}
+
+.mission h4 {
+    margin: 15px;
+}
+
+/* Information about "Tea of the month" */
+.tea_of_month {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.block_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.tea_images_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tea_images_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.tea_images_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tea_images_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tea_images_5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Information about "Locations" */
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1sgxnjw*_gcl_au*MzEwNDM0NzU1LjE3NTIxNTI4NzU.*_ga*NTA2MDM3MDMxNi4xNzQ0MjczNjYx*_ga_3LRZM6TM9L*czE3NTYxNTAyOTEkbzI3JGcxJHQxNzU2MTUwMzIyJGoyOSRsMCRoMA...);
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto 40px auto;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+#location_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.location_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.location_boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    width: 130%;
+}
+
+/* Information about the footer */
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+}
